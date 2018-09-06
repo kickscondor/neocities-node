@@ -17,10 +17,8 @@
   },
   "dependencies": {
     "form-data": "^2.1.4",
-    "http-request-queue": "^0.1.0",
     "request": "~2.87.0",
-    "requestretry": "^2.0.2",
-    "retry-request": "^4.0.0"
+    "requestretry": "^2.0.2"
   },
   "devDependencies": {
     "browserify": "^14.3.0",
