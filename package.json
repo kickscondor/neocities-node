@@ -1,11 +1,11 @@
 {
   "name": "neocities",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "library for the NeoCities.org API",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:neocities/neocities-node.git"
+    "url": "git@github.com:kickscondor/neocities-node.git"
   },
   "keywords": [
     "neocities"
@@ -13,10 +13,14 @@
   "author": "Kyle Drake <kyle@kyledrake.net> (http://kyledrake.net/)",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/neocities/neocities-node/issues"
+    "url": "https://github.com/kickscondor/neocities-node/issues"
   },
   "dependencies": {
-    "form-data": "^2.1.4"
+    "form-data": "^2.1.4",
+    "http-request-queue": "^0.1.0",
+    "request": "~2.87.0",
+    "requestretry": "^2.0.2",
+    "retry-request": "^4.0.0"
   },
   "devDependencies": {
     "browserify": "^14.3.0",
